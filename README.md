@@ -10,9 +10,8 @@ Screenshot
 
 Install
 =======
-1. Use pathogen and clone or just copy the files in `syntax/` to `~/.vim/syntax/`
-2. Add to `~/.vimrc`:
-
+1. Copy the files in `syntax/` to Vim's `syntax` folder.
+2. Add to `vimrc`:
 ```
 au BufRead,BufNewFile *.ur setfiletype urweb
 au BufRead,BufNewFile *.urs setfiletype urweb
